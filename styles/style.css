@@ -104,7 +104,7 @@
   .banner-title{
     font-weight: bold;
     max-width: 640px;
-    font-size: 3.5rem;
+    font-size: 4rem;
     margin-bottom: 24px;
   }
 
@@ -121,6 +121,72 @@
     font-size: 1.25rem;
     color: black;
     margin-bottom: 32px;
+  }
+
+  /* curriculum styles */
+
+  .title{
+    font-weight: bold;
+    font-size: 2.875rem;
+    text-align: center;
+  }
+
+  .curriculum{
+    background-image: url("../images/bg.png");
+    padding: 20px 0px;
+    text-align: center;
+  }
+
+  .curr-cards{
+    max-width: 1160px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .card-item{
+    padding: 41px 41px;
+    background-image: linear-gradient(to bottom, rgba(222, 245, 255, 1) 0% , #FFFFFF 40%);
+    border-radius: 19px;
+    max-width: 290px;
+  }
+
+  .c-one{
+    border: 1px solid rgba(222, 245, 255, 1);
+  }
+
+  .c-two{
+    background-image: linear-gradient(to bottom, rgba(255, 244, 220, 1) 0% , #FFFFFF 40%);
+    border: 1px solid rgba(255, 244, 220, 1);
+  }
+
+  .c-three{
+    background-image: linear-gradient(to bottom, rgba(238, 225, 255, 1) 0%, #FFFFFF 40%);
+    border: 1px solid rgba(238, 225, 255, 1);
+  }
+
+  .description{
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgba(128, 128, 128, 1);
+  }
+
+  .link{
+    font-weight: bold;
+    font-size: 1rem;
+    text-decoration: none;
+  }
+
+  .link1{
+    color: rgba(100, 200, 255, 1);
+  }
+
+  .link2{
+    color: rgba(240, 170, 0, 1);
+  }
+
+  .link3{
+    color: rgba(135, 0, 255, 1);
   }
 
   /* Responsive media query for mobile screen */
@@ -151,6 +217,10 @@
     }
 
     /* banner styles */
+
+    .banner-title{
+        font-size: 3rem;
+    }
     .banner-content{
         text-align: center;
     }
@@ -163,5 +233,26 @@
 
       .hero{
         max-width: 336px;
+      }
+
+      /* curriculum styles */
+      .curr-cards{
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .c-one{
+        margin-bottom: 36px;
+      }
+
+      .c-two{
+        margin-bottom: 36px;
+      }
+
+      .title{
+        font-size: 2rem;
       }
   }
