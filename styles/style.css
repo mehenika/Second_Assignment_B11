@@ -409,7 +409,7 @@
         text-align: center;
     }
     .banner{
-        max-width: 357px;
+        max-width: 90%;
         margin: 0 auto;
         display: flex;
         flex-direction: column-reverse;
@@ -421,11 +421,15 @@
 
       /* curriculum styles */
       .curr-cards{
-        width: 90%;
+        max-width: 90%;
         margin: 0 auto;
         display: flex;
         flex-direction: column;
         align-items: center;
+      }
+
+      .card-item{
+        max-width: 90%;
       }
 
       .c-one{
@@ -449,34 +453,35 @@
       .card-left{
         display: none;
       }
+
       .cards-right{
-        max-width: 95%;
+        max-width: 90%;
         margin: 0 auto;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 12px;
+        gap: 10px;
         margin-bottom: 0px;
       }
 
       .card-two{
-        max-width: 180px;
+        max-width: 215px;
         border-radius: 9px;
       }
 
       .s-two{
-        max-width: 180px;
+        max-width: 215px;
         border-top-left-radius: 9px;
         border-top-right-radius: 9px;
       }
 
       .small-title{
         line-height: 1.7;
-        font-size: 0.57rem;
+        font-size: 0.8rem;
       }
 
       .btn-s-two{
         position: absolute;
-        top: 98px;
+        top: 120px;
         left: 19px;
         border-radius: 28px;
         height: 23px;
@@ -490,7 +495,7 @@
 
       .btn-s-three{
         position: absolute;
-        top: 98px;
+        top: 120px;
         left: 19px;
         border-radius: 28px;
         height: 23px;
