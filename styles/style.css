@@ -97,6 +97,10 @@
   }
 
   /* banner styles */
+  .marquee-text{
+    color: rgba(93, 88, 239, 1);
+    font-size: 1.5rem;
+  }
 
   .banner{
     display: flex;
@@ -136,6 +140,7 @@
     font-weight: bold;
     font-size: 2.875rem;
     text-align: center;
+    margin-bottom: 70px;
   }
 
   .curriculum{
@@ -188,6 +193,27 @@
 
   .link3{
     color: rgba(135, 0, 255, 1);
+  }
+
+  .buttons{
+    margin-top: 80px;
+  }
+
+  .btn-previous{
+    width: 60px;
+    height: 60px;
+    color: #FFFFFF;
+    background-color: orange;
+    border: none;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    border: 2px solid #ffffff;
+  }
+
+  .btn-previous:hover{
+    color: orange;
+    background-color: #FFFFFF;
+    border: 2px solid orange;
   }
 
   /* Stories styles */
@@ -412,6 +438,11 @@
 
       .title{
         font-size: 2rem;
+        margin-bottom: 40px;
+      }
+
+      .buttons{
+        display: none;
       }
 
       /* stories styles */
